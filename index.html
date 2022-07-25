@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nako Web</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="flex justify-between  max-w-6xl mx-auto">
+        <!-- Flex container -->
+    <div class="flex items-center space-x-3">
+        <!-- Logo -->
+        <img class="hidden md:inline-flex object-contain cursor-pointer"
+        src="img/logo.png" 
+        alt="logo"
+        width="96px"
+        >
+        <div class="hidden md:inline-flex items-center space-x-3 text-slate-600 text-lg font-medium">
+            <h3>444 NAKO</h3>
+        </div>
+    </div>
+        <!-- Menu Items -->
+    <div class="hidden md:inline-flex items-center space-x-3 text-slate-600 text-lg font-medium cursor-pointer">
+        <h3>ÜYE OL / GİRİŞ YAP</h3>
+        <h3>SEPETİM</h3>
+        <img src="img/shopping-bag.PNG" width="32px" alt="">
+    </div>
+</header>
+    <!-- Mobile Header -->
+
+
+    <div class="flex items-center justify-between text-slate-600 text-lg font-medium p-5 md:hidden">
+        <h2>444 NAKO</h2>
+
+       <img class="object-contain cursor-pointer"
+            src="img/logo.png"
+            alt="logo"
+            width="96px"
+        >
+        <img class="object-contain cursor-pointer"
+        width="64px"
+        src="img/main-menu.png" alt="menu">
+    </div>
+
+    
+    
+    <!-- Header Tags - Desktop Only -->
+
+    <div class="hidden md:flex justify-evenly max-w-6xl mx-auto text-slate-600 font-medium cursor-pointer p-5">
+        <p>
+            EL ÖRGÜ İPLİKLERİ
+        </p>
+        <p>
+            ÖRGÜ EKİPMANLARI    
+        </p>
+        <p>
+            DERGİ
+        </p>
+        <p>
+            NAKO TV
+        </p>
+        <p>
+            ÖRGÜ MODELLERİ
+        </p>
+        <p>
+            NAKO ÖRGÜ KULÜBÜ
+        </p>
+    
+        <div class="border">
+            <i class="fa fa-search border-r-2 p-1"></i>
+            <input class="w-64 text-xs" type="text"
+           placeholder="İplik ismi veya model numarası ile ara"
+            >
+        </div>
+        
+    </div>
+
+    <!-- Banner - Desktop -->
+
+                <img class="hidden md:block border w-full cursor-pointer
+                md:object-scale-down"
+                src="img/banner.svg" 
+                alt="banner">
+
+      <div class="hidden md:flex items-center justify-evenly mx-auto p-5 max-w-6xl ">
+            <img class="object-contain md:object-scale-down cursor-pointer"
+             src="img/saglikli-iplik.PNG" 
+             alt="iplik"
+             width="50%"
+             >
+                <img class="object-contain md:object-scale-down cursor-pointer"
+                src="img/kargo-teslim.png" 
+                alt="kargo"
+                width="45%"
+                >
+  </div>
+
+  <!-- Banner - Mobile -->
+  
+  <div class="md:hidden">
+
+      <img class="w-full mx-auto md:object-scale-down"
+      src="img/mobil-banner.png" 
+      alt="banner">
+  </div>
+
+  <!-- Product Display - Desktop -->
+  <div class="flex items-center justify-evenly mx-auto max-w-6xl ">
+
+      <img class="object-contain"
+      src="img/line.png" 
+      alt="line"
+      width="40%"
+      >
+       <h1 class="font-medium">YENİ  ÜRÜNLER <br>  <br></h1> 
+       <img class="object-contain"
+       src="img/line.png" 
+       alt="line"
+       width="40%"
+       >
+  </div>
+  
+  <!-- Item Showcase - Mobile -->
+
+    <div class="flex space-x-5 mx-auto justify-evenly  md:hidden">
+        <div class="border text-center w-44">
+            <span style="background-color: rgb(141, 8, 8);
+            position: relative;
+            margin-left: 15.3rem;
+            top: 0.2rem;
+            color: #fff;
+            padding: 5px 10px 5px 10px;">
+            YENİ
+        </span>
+            <img class="mx-auto cursor-pointer p-2"
+            src="img/nako-mobil-iplik.PNG" 
+            alt="iplik"
+            width="30%"
+            >
+            <hr>
+            <p class=" mx-auto text-slate-600 p-2">35 Renk</p>
+            <hr class="w-1/4 mx-auto text-slate-600 p-2">
+            <p class="text-2xl text-slate-600 ">Pırlanta <br> WAYUU</p>
+            <p class="text-slate-600 text-center p-2"
+            >
+                %100 Premium <br> Mikro Akrilik
+            </p>
+            <p class="text-slate-600 p-2">4,75 TL</p>
+        </div>
+
+        <div class="border text-center w-44">
+            <span style="background-color: rgb(141, 8, 8);
+            position: relative;
+            margin-left: 15.3rem;
+            top: 0.2rem;
+            color: #fff;
+            padding: 5px 10px 5px 10px;">
+            YENİ
+        </span>
+            <img class="mx-auto cursor-pointer p-2"
+            src="img/nako-mobil-iplik.png" 
+            alt="iplik"
+            width="30%"
+            >
+            <hr>
+            <p class=" mx-auto text-slate-600 p-2">14 Renk</p>
+            <hr class="w-1/4 mx-auto text-slate-600 p-2">
+            <p class="text-2xl text-slate-600 ">Bebe <br> Mix</p>
+            <p class="text-slate-600 text-center p-2"
+            >
+                %100 Premium <br> Akrilik
+            </p>
+            <p class="text-slate-600 p-2">6,00 TL</p>
+        </div>
+        
+    </div>
+    <!-- Mobile Images -->
+    <div class="mx-auto items-center md:hidden">
+        <img    class="mx-auto p-5"
+                src="img/mobil-yeni-urun.png" 
+                alt="yeni-urunler"
+                width="80%"
+                >  
+    </div>
+        
+    <div class="mx-auto items-center md:hidden">
+        <img    class="mx-auto"
+                src="img/el-orgu.png" 
+                alt="yeni-urunler"
+                width="80%"
+                >  
+    </div>
+
+  <!-- Showcase - Desktop -->
+
+  <div class="hidden md:flex space-x-3 max-w-6xl mx-auto justify-evenly">
+
+        <div class="border text-center w-64 p-5">
+            <span style="background-color: rgb(141, 8, 8);
+                position: relative;
+                margin-left: 10.5rem;
+                bottom: 0.8rem;
+                color: #fff;
+                padding: 5px 15px 5px 15px;">
+                YENİ
+            </span>
+            <img class="mx-auto p-5 cursor-pointer"
+            src="img/nako-iplik.PNG" 
+            alt="iplik"
+            width="100%"
+            >
+            <hr>
+            <p class=" mx-auto text-slate-600 p-2">13 Renk</p>
+            <hr class="w-1/4 mx-auto p-2">
+            <p class="text-2xl font-medium">Calico Jakar</p>
+            <p class="text-slate-600 text-center">%50 Pamuk, %50 Premium Akrilik</p>
+            <p class="font-medium p-5">6,50 TL</p>
+    </div>
+    
+    <div class="border text-center w-64 p-5">
+        <span style="background-color: rgb(141, 8, 8);
+                position: relative;
+                margin-left: 10.5rem;
+                bottom: 0.8rem;
+                color: #fff;
+                padding: 5px 15px 5px 15px;">
+                YENİ
+            </span>
+        <img class="mx-auto p-5 cursor-pointer"
+        src="img/nako-iplik.PNG" 
+        alt="iplik"
+        width="100%"
+        >
+        <hr>
+        <p class=" mx-auto text-slate-600 p-2">13 Renk</p>
+        <hr class="w-1/4 mx-auto p-2">
+        <p class="text-2xl font-medium">Calico Jakar</p>
+        <p class="text-slate-600 text-center">%50 Pamuk, %50 Premium Akrilik</p>
+        <p class="font-medium p-5">6,50 TL</p>
+    </div>
+    <div class="border text-center w-64 p-5">
+        <span style="background-color: rgb(141, 8, 8);
+                position: relative;
+                margin-left: 10.5rem;
+                bottom: 0.8rem;
+                color: #fff;
+                padding: 5px 15px 5px 15px;">
+                YENİ
+            </span>
+        <img class="mx-auto p-5 cursor-pointer"
+        src="img/nako-iplik.PNG" 
+        alt="iplik"
+        width="100%"
+        >
+        <hr>
+        <p class="mx-auto text-slate-600 p-2">13 Renk</p>
+        <hr class="w-1/4 mx-auto p-2">
+        <p class="text-2xl font-medium">Calico Jakar</p>
+        <p class="text-slate-600 text-center">%50 Pamuk, %50 Premium Akrilik</p>
+        <p class="font-medium p-5">6,50 TL</p>
+    </div>
+    
+
+        <div>
+            
+            <img class="object-contain cursor-pointer"
+            src="img/yeni-urun.png" 
+            alt="iplik"
+            width="100%"
+            >
+        </div>
+    
+  </div>
+  
+  <!-- Second Banner -->
+
+  <div class="hidden md:flex space-x-3 max-w-6xl mx-auto">
+
+        <img class="mx-auto p-5"
+        src="img/el-orgu.png" 
+        alt="banner">
+
+  </div>
+
+  <!-- Second Product Display - Desktop -->
+
+  <div class="flex items-center justify-evenly mx-auto max-w-6xl ">
+
+    <img class="object-contain"
+    src="img/line.png" 
+    alt="line"
+    width="40%"
+    >
+     <h1 class="font-medium">EN POPÜLER <br>  <br></h1> 
+     <img class="object-contain"
+     src="img/line.png" 
+     alt="line"
+     width="40%"
+     >
+</div>
+
+    <!-- Mobile Slider Showcase -->
+
+        <div class="flex space-x-3 mx-auto justify-evenly md:hidden">
+            <div class="border text-center w-44">
+                <img class="mx-auto cursor-pointer p-5"
+            src="img/iplik-yatay.png" 
+            alt="iplik"
+            width="60%"
+            >
+            <hr>
+            <p class=" mx-auto text-slate-600 p-2">36 Renk</p>
+            <hr class="w-1/4 mx-auto text-slate-600 p-2">
+            <p class="text-2xl text-slate-600 font-medium">Pırlanta <br>
+            <p class="text-slate-600 text-center p-2"
+            >
+                %100 PAC
+            </p>
+            <p class="text-slate-600 p-2 font-medium">4,75 TL</p>
+                </div>
+            <div class="border text-center w-44">
+                <img class="mx-auto cursor-pointer p-5"
+            src="img/iplik-yatay.png" 
+            alt="iplik"
+            width="60%"
+            >
+            <hr>
+            <p class=" mx-auto text-slate-600 p-2">35 Renk</p>
+            <hr class="w-1/4 mx-auto text-slate-600 p-2">
+            <p class="text-2xl text-slate-600 font-medium">Saten</p>
+            <p class="text-slate-600 text-center p-2"
+            >
+                %100 Premium Mikro  <br> Akrilik
+            </p>
+            <p class="text-slate-600 p-2 font-medium">4,75 TL</p>
+                </div>
+        </div>
+
+    <!-- Desktop Slider Showcase -->
+
+
+<div class="hidden md:flex space-x-3 max-w-6xl mx-auto justify-evenly">
+
+    <span style="position: relative; 
+          top: 8rem;
+          font-size: 36px;
+          cursor: pointer;
+    "><</span>
+
+    <div class="border text-center w-64 p-5">
+        <img class="mx-auto p-5 cursor-pointer"
+        src="img/nako-iplik.PNG" 
+        alt="iplik"
+        width="100%"
+        >
+        <br>
+        <br>
+        <br>
+        <hr>
+        <p class="mx-auto text-slate-600 p-2">13 Renk</p>
+        <hr class="w-1/4 mx-auto p-2">
+        <p class="text-2xl font-medium">Calico Jakar</p>
+        <p class="text-slate-600 text-center">%50 Pamuk, %50 Premium Akrilik</p>
+        <p class="font-medium p-5">6,50 TL</p>
+    </div>
+    
+    <div class="border text-center w-64 p-5">
+        <img class="mx-auto p-5 cursor-pointer"
+        src="img/nako-iplik.PNG" 
+        alt="iplik"
+        width="100%"
+        >
+        <br>
+        <br>
+        <br>
+        <hr>
+        <p class="mx-auto text-slate-600 p-2">13 Renk</p>
+        <hr class="w-1/4 mx-auto p-2">
+        <p class="text-2xl font-medium">Calico Jakar</p>
+        <p class="text-slate-600 text-center">%50 Pamuk, %50 Premium Akrilik</p>
+        <p class="font-medium p-5">6,50 TL</p>
+    </div>
+    <div class="border text-center w-64 p-5">
+        <img class="mx-auto p-5 cursor-pointer"
+        src="img/nako-iplik.PNG" 
+        alt="iplik"
+        width="100%"
+        >
+        <br>
+        <br>
+        <br>
+        <hr>
+        <p class="mx-auto text-slate-600 p-2">13 Renk</p>
+        <hr class="w-1/4 mx-auto p-2">
+        <p class="text-2xl font-medium">Calico Jakar</p>
+        <p class="text-slate-600 text-center">%50 Pamuk, %50 Premium Akrilik</p>
+        <p class="font-medium p-5">6,50 TL</p>
+    </div>
+    <div class="border text-center w-64 p-5">
+        <img class="mx-auto p-5 cursor-pointer"
+        src="img/nako-iplik.PNG" 
+        alt="iplik"
+        width="100%"
+        >
+        <br>
+        <br>
+        <br>
+        <hr>
+        <p class="mx-auto text-slate-600 p-2">13 Renk</p>
+        <hr class="w-1/4 mx-auto p-2">
+        <p class="text-2xl font-medium">Calico Jakar</p>
+        <p class="text-slate-600 text-center">%50 Pamuk, %50 Premium Akrilik</p>
+        <p class="font-medium p-5">6,50 TL</p>
+        
+    </div>
+    <span style="position: relative; 
+    top: 8rem;
+    font-size: 36px;
+    cursor: pointer;
+">></span>
+    </div>
+
+
+
+
+    <!-- Footer -->
+
+    <div class="grid-col-1  md:flex items-center justify-evenly mx-auto max-w-6xl p-5">
+        <div class="p-5 w-96 mx-auto">
+            <p class="text-lg border text-slate-600 p-2">
+                <i class="fa-solid fa-cart-flatbed"></i>
+                GÜVENİLİR ALIŞVERİŞ
+            </p>
+        </div>
+        <div class="p-5 w-96 mx-auto">
+            <p class="text-lg border text-slate-600 p-2">
+                <i class="fas fa-truck"></i>
+                75 TL VE ÜZERİ ÜCERTSİZ KARGO
+            </p>
+        </div>
+         <div class="p-5 w-96 mx-auto">
+             <p class="text-lg border text-slate-600 p-2">
+                <i class="fa-regular fa-face-smile"></i>
+                MÜŞTERİ MEMNUNİYETİ
+            </p>
+         </div>
+    </div>
+
+    <div class="grid-col-1 text-center md:flex items-center justify-evenly mx-auto max-w-6xl p-5"
+            style="background-color: rgb(243, 240, 240);"
+    >
+        <p>
+            Kampanyalarımızdan ve sitemizdeki yeniliklerden <br>
+            haberdar olmak için e-bülten listemizi üye olun:
+        </p>
+        <div class="inline-block">
+            <input type="text" placeholder="E-posta adresiniz" class="p-2"><button class="p-2  text-white border" 
+            style="background-color: black;
+            color: white;
+            ">
+                ÜYE OL
+            </button>
+        </div>
+    </div>
+
+    <div class="hidden md:flex space-x-3 max-w-6xl mx-auto justify-evenly p-5">
+        <div class="text-slate-900 cursor-pointer">
+            <p class="font-medium">KURUMSAL</p>
+            <p>Hakkımızda</p>
+            <p>İletişim</p>
+        </div>
+        <div class="text-slate-900 cursor-pointer">
+            <p class="font-medium">MÜŞTERİ HİZMETLERİ</p>
+            <p>Satış Sözleşmesi</p>
+            <p>Güvelik Sertifikası</p>
+            <p>Hesap Numaralarımız</p>
+            <p>Kullanım Şartları</p>
+            <p>Gizlilik</p>
+            <p>Ödeme Seçenekleri</p>
+        </div>
+        <div class="text-slate-900 cursor-pointer">
+            <p class="font-medium">HESABIM</p>
+            <p>Siparişlerim</p>
+            <p>Sepetim</p>
+            <p>Bilgilerim</p>
+        </div>
+        <div >
+            <p class="font-medium">ÖRGÜ DANIŞMANI</p>
+            <p class="text-slate-900 p-1">El örgüsü ile her türlü soru, öneri ve destek <br> talebiniz için hafta içi mesai saatleri içinde aşağıdaki <br> telefon numarasından Örgü Danışmanlarımıza <br> ulaşabilirsiniz.</p>
+            <br>
+            <p class="text-slate-600">
+                08.00 -17.30 (Hafta içi) <br>
+                Telefon: 0224 573 22 11
+            </p>
+        </div>
+        <div>
+            <p class="font-medium">BİZİ TAKİP EDİN!</p>
+            <p class="cursor-pointer">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter-square"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </p>
+        </div>
+        </div>
+
+        <div class="hidden md:flex mx-auto justify-evenly p-5 max-w-6xl">
+            <img class="object-contain" 
+            src="img/logos.png" 
+            alt="logos"
+            width="85%"
+            >
+        </div>
+        <hr>
+        <div class="hidden md:flex mx-auto p-5 max-w-6xl">
+            
+            <p>C 2017 - NAKO - Bu sitenin tüm hakları saklıdır</p>
+        </div>
+
+        <!-- Mobile - Footer -->
+
+        <div class="flex space-x-3 text-center mx-auto justify-evenly p-5 md:hidden">
+            <div class="text-slate-900 cursor-pointer">
+                <p class="font-medium">KURUMSAL</p>
+                <p>Hakkımızda</p>
+                <p>İletişim</p>
+            </div>
+            <div class="text-slate-900 cursor-pointer">
+            <p class="font-medium">MÜŞTERİ HİZMETLERİ</p>
+            <p >Satış Sözleşmesi</p>
+            <p >Güvelik Sertifikası</p>
+            <p >Hesap Numaralarımız</p>
+            <p >Kullanım Şartları</p>
+            <p >Gizlilik</p>
+            <p >Ödeme Seçenekleri</p>
+            </div>
+        </div>
+        <div class="flex mx-auto justify-evenly md:hidden">
+            <div class="text-slate-900 cursor-pointer">
+                <p class="font-medium">HESABIM</p>
+                <p>Siparişlerim</p>
+                <p>Sepetim</p>
+                <p>Bilgilerim</p>
+            </div>
+            <div></div>
+        </div>
+        <br>
+        <div class="flex mx-auto text-center  md:hidden">
+            <div class="text-slate-900">
+                <p class="font-medium">
+                    ÖRGÜ DANIŞMANI
+                </p>
+                <p>
+                    El örgüsü ile her türlü soru, öneri ve destek talebiniz için <br> hafta içi mesai saatleri içinde aşağıdaki telefon numarasından  Örgü Danışmanlarımıza ulaşabilirsiniz.
+                </p>
+                <br>
+                <p class="text-slate-600">
+                    08.00 -17.30 (Hafta içi) <br>
+                    Telefon: 0224 573 22 11
+                </p>
+            </div>
+        </div>
+        <div class="text-center p-5 md:hidden">
+            <p class="font-medium">BİZİ TAKİP EDİN!</p>
+            <p class="cursor-pointer">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter-square"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </p>
+        </div>
+        <div class="md:hidden">
+            <img class="mx-auto"
+            src="img/mobil-footer.PNG" 
+            alt="footer">
+        </div>
+
+</body>
+</html>
